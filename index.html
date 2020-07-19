@@ -10,6 +10,7 @@
 
     <!-- ** Plugins Needed for the Project ** -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/10ed672509.js" crossorigin="anonymous"></script>
 
     <!-- Main Stylesheet -->
     <link href="style.css" rel="stylesheet">
@@ -17,7 +18,7 @@
     <title>Tzu-Ying (Chloe) Wu's Portfolio</title>
   </head>
 
-  <body ONDRAGSTART="window.event.returnValue=false" onSelectStart="event.returnValue=false" ONCONTEXTMENU="window.event.returnValue=false">
+  <body >
     <!-- Header Start -->
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -27,7 +28,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -50,10 +51,10 @@
     			<br>
     			<br>
           <div class="home-text">
-      			<h2 style="margin-top:6rem" class="home-title1">welcome to<h2>
-            <h1 style="margin-top:2rem" class="home-title2">Chloe's World <img class="balloon" src="img/balloon.svg" alt="Home Balloon"><h1>
-      			<h4 style="margin-top:3rem" class="home-subtitle">Film Maker | Digital Marketer | Life Enthusiast</h4>
-            <p style="margin-top:1rem">Proactive, Creative and Collaborative are my top 3 characteristics. I </p>
+      			<h2 class="home-title1">welcome to<h2>
+            <h1 class="home-title2">Chloe's World <img class="balloon" src="img/balloon.svg" alt="Home Balloon"><h1>
+      			<h4 style="margin-top:3rem;" class="home-subtitle">Film Maker | UIUX Designer | Life Enthusiast</h4>
+            <p style="margin-top:1rem; color: #fecdb4;">Proactive, Creative and Collaborative are my top 3 characteristics. I </p>
           </div>
     		</div>
     		<div class="col-lg-5 col-md-12 col-sm-12">
@@ -98,97 +99,60 @@
 
 
     <!-- Portfolio Start -->
-    <section class="portfolio work">
+    <section class="portfolio work" id="work">
     	<div class="container">
         <br>
         <br>
         <br>
-        <h3>My Portfolio Highlight</h3>
+        <br>
+        <h3 class="color1"><strong>My Portfolio Highlight</strong></h3>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
 
-    			<div class="row shuffle-wrapper portfolio-gallery" id="work">
+    			<div class="row shuffle-wrapper portfolio-gallery" id="">
     				<br>
-    				<div class="col-lg-6 col-md-6 col-sm-12  shuffle-item">
-    					<br>
-    					<br>
-    					<a href="bd.html">
-    						<img src="img/blocks/bd.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push">
+    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
+    					<a class="put-center" href="loreal.html">
+    						<img src="img/loreal-cover.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push" style="max-width: 95%;">
     						<br>
     					</a>
     				</div>
-    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
-    					<br>
-    					<br>
-    					<h2 style="margin-top:2rem;">Evolution You Can See</h2>
+    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item home-title-wrapper">
+    					<h2 style="margin-top:0.5rem;">Evolution You Can See <span> 💇 💈</span></h2>
               <h3 style="margin-top:1rem;">@Loreal Brandstorm 2018</h3>
     					<br>
-    					<p>Collaborated with product and engineering to design a proactive tool for an internal
-    						customer support platform that is expected to decrease customer support submissions.</p>
+              <p>Aiming at bridging art and technology to create benefits to the world.
+                Proactive, Creative and Collaborative are 3 words that best describe me.
+              </p>
     					<br>
-    					<a href="bd.html"><b>⟵ Read More 👀</b></a>
+    					<a class="home-click" href="loreal.html"><b><i class="fas fa-arrow-right"></i> Read More <i class="fas fa-arrow-left"></i></b></a>
     				</div>
     			</div>
     			<br>
+          <br>
+          <br>
+          <br>
+          <br>
 
-    			<div class="row shuffle-wrapper portfolio-gallery" id="work">
+
+    			<div class="row shuffle-wrapper portfolio-gallery" id="">
     				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
+    					<h2 style="margin-top:0.5rem;">Sophlix <span> 🎞 📝 </span></h2>
+              <h3 style="margin-top:1rem;">@Adobe Creative Jam x Netflix</h3>
     					<br>
+    					<p>A video streaming platform which primarily features 3 functions: collecting favorite plots and adding notes,
+                inserting message into friends’ video, and watching a video in a group with live chat.</p>
     					<br>
-    					<br>
-    					<h2 style="margin-top:3rem;">Program Director Intern</h2>
-              <h3 style="margin-top:1rem;">@Tencent Video</h3>
-    					<br>
-    					<p>The current pill reminders apps are difficult to setup reminders. I redesigned the setup workflow and crafted interactive experience that sparks joy ✨</p>
-    					<br>
-    					<a href="pill.html"><b>Read Case Study 👀 ⟶</b></a>
-    				<br>
-    				</div>
-    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
-    					<a href="pill.html">
-    						<img src="img/blocks/pill.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push">
-    					</a>
-    				</div>
-    			</div>
-
-    			<br>
-    			<br>
-    			<br>
-
-    			<div class="row shuffle-wrapper portfolio-gallery" id="work">
-    				<div class="col-lg-6 col-md-6 col-sm-12  shuffle-item">
-    					<a href="designco.html">
-    						<img src="img/blocks/dco.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push">
-    					</a>
+    					<a class="home-click" href="sophlix.html"><b><i class="fas fa-arrow-right"></i> Read More <i class="fas fa-arrow-left"></i></b></a>
+    				  <br>
+              <br>
     				</div>
     				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
-    					<br>
-    					<h2 style="margin-top:2rem;">Marketing Intern/ Graphic Designer</h2>
-              <h3 style="margin-top:1rem;">@Scripps Institute of Oceanography</h3>
-    					<br>
-    					<p>Create a design community and connect students to industry opportunities.
-    						Hold weekly design workshops. Previously worked with <a href="https://www.facebook.com/events/2557519091031116/" target="_blank">@Facebook</a>, <a href="https://www.facebook.com/events/1340395706136941/" target="_blank">@ServiceNow</a>, <a href="https://www.intuit.com/" target="_blank">@Intuit</a> and more. </p>
-    					<br>
-    					<a href="designco.html"><b>⟵ Read More 👀</b></a>
-    				</div>
-    			</div>
-
-    			<br>
-    			<br>
-    			<br>
-
-    			<div class="row shuffle-wrapper portfolio-gallery" id="work">
-    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
-    					<h2 style="margin-top:5rem;">Jane</h2>
-              <h3 style="margin-top:1rem;">@UCSD Self</h3>
-    					<br>
-    					<p>A peer-to-peer resouces platform that helps students find textbook, syllabus, class notes and other resources. Created by <a href="https://www.paridhikhaitan.me/" target="_blank">Paridhi</a>, <a href="https://www.vickyly.co/" target="_blank">Vicky</a>, and me.</p>
-    					<br>
-    					<a href="https://study-buddy-ucsd.netlify.app/" target="_blank"><b>Check out our web app 👀 ⟶</b></a>
-    					<br>
-    				</div>
-    				<div class="col-lg-6 col-md-6 col-sm-12  shuffle-item">
-    					<a href="https://study-buddy-ucsd.netlify.app/" target="_blank">
-    						<img src="img/blocks/StudyBuddy.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push">
+    					<a class="put-center" href="sophlix.html">
+    						<img src="img/soph-cover.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push" style="max-width: 95%;">
     					</a>
     				</div>
     			</div>
@@ -196,16 +160,69 @@
     			<br>
     			<br>
           <br>
+          <br>
+          <br>
+
+    			<div class="row shuffle-wrapper portfolio-gallery" id="">
+    				<div class="col-lg-6 col-md-6 col-sm-12  shuffle-item">
+    					<a class="put-center" href="hcb300.html">
+    						<img src="img/hbc-cover.jpeg" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push" style="max-width: 95%;">
+                <br>
+    					</a>
+    				</div>
+    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
+    					<h2 style="margin-top:0.5rem;">Program Director Intern <span> 🎥 ✨ </span></h2>
+              <h3 style="margin-top:1rem;">@Tencent Video</h3>
+    					<br>
+    					<p>Participated in all three stages from pre-production to post-production as a program director.
+                Been selected to go on a business trip to Beijing doing post-production work for a month.</p>
+    					<br>
+    					<a class="home-click" href="hcb300.html"><b><i class="fas fa-arrow-right"></i> Read More & Watch The Show <i class="fas fa-arrow-left"></i></b></a>
+    				</div>
+    			</div>
+    			<br>
+    			<br>
+    			<br>
+          <br>
+          <br>
+
+    			<div class="row shuffle-wrapper portfolio-gallery" id="">
+    				<div class="col-lg-6 col-md-6 col-sm-12 shuffle-item">
+    					<h2 style="margin-top:0.5rem;">Jane <span> 🔪 🥀 </span></h2>
+              <h3 style="margin-top:1rem;"></h3>
+    					<br>
+    					<p>A suspense short film about a mysterious woman, Jane Doe, who has been in FBI unsolved file for years.
+                (Collaborated with Angus, Helen, David and many other marvelous UCSD school mates.)</p>
+    					<br>
+    					<a class="home-click" href="jane.html"><b><i class="fas fa-arrow-right"></i> Watch Video <i class="fas fa-arrow-left"></i></b></a>
+    					<br>
+              <br>
+    				</div>
+    				<div class="col-lg-6 col-md-6 col-sm-12  shuffle-item">
+    					<a class="put-center" href="jane.html" target="_blank">
+    						<img src="img/jane-cover.png" alt="portfolio-image" class="img-fluid w-100 d-block floating hvr-push" style="max-width: 95%;">
+    					</a>
+    				</div>
+    			</div>
+    			<br>
+    			<br>
+          <div class="put-center">
+            <span>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </span>
+            <a class="home-click2" href="work.html"><h5><i class="fas fa-asterisk"></i><b> Click to See More Work </b><i class="fas fa-asterisk"></i></h5></a>
+          </div>
+
 
     	</div>
 
     </section>
     <!-- Portfolio End -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 
 
