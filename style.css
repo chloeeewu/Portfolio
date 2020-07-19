@@ -65,7 +65,30 @@ body {
   text-align: center;
 }
 
-/* Overall End */
+.color1 {
+  color: #bf888c;
+}
+
+.color2 {
+  color: #fecdb4;
+}
+
+.font2 {
+  font-family: 'Dancing Script';
+}
+
+.highlight {
+  color: white;
+  background-color: #f8c9b3;
+}
+
+.highlight2 {
+  color: white;
+  background-color: #93D2DF;
+  padding: 0.2em;
+}
+
+/* Layout End */
 
 
 /* a & hover Start*/
@@ -224,6 +247,8 @@ a:hover {
 
 .copyright-g {
   padding-top: 2em;
+  margin: 0 1em;
+  font-size: 1.3em;
 }
 
 /* Footer End */
@@ -572,146 +597,6 @@ a:hover {
   border-radius: 25px;
 }
 
-
-/*
-.sideAni {
-      position: relative;
-      top: 50%; left: 50%;
-      width: 50px;
-      height: 50px;
-      border-radius: 100%;
-}
-
-.sideAni::before {
-         content: '';
-         position: absolute;
-         width: 50px;
-         height: 50px;
-         transform: translate(-50%, -50%);
-         top: 50%;
-         left: 50%;
-         background-color: black;
-         border-radius: 100%;
-         transition: .2s;
-}
-.sideAni::after {
-         content: "";
-         position: absolute;
-         width: 50px;
-         height: 50px;
-         top: 0;
-         left: 0;
-         background-color: black;
-         border-radius: 100%;
-         transition: .2s;
-}
- .sideAni > span:nth-of-type(1) {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: 0;
-        left: 0;
-        background-color: black;
-        border-radius: 100%;
-        transition: .2s;
-}
-.sideAni > span:nth-of-type(2) {
-       position: absolute;
-       width: 50px;
-       height: 50px;
-       top: 0;
-       left: 0;
-       background-color: black;
-       border-radius: 100%;
-       transition: .2s;
-}
-
-.sideBtn:hover .sideAni::before {
-       width: 40px;
-       height: 40px;
-       top: 50%; left: 50%;
-}
-.sideBtn:hover .sideAni::after {
-       width: 15px;
-       height: 15px;
-       top: 30px;
-       left: 45px;
-}
-.sideBtn:hover .sideAni>span:nth-of-type(1) {
-       width: 30px;
-       height: 30px;
-       top: -10px;
-       left: -20px;
-}
-.sideBtn:hover > .sideAni>span:nth-of-type(2) {
-       width: 25px;
-       height: 25px;
-       top: 40px;
-       left: -20px;
-}
-*/
-
-
-
-/*
-.sideAni figure {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 10px;
-  height: 10px;
-  transform: translate(-50%, -50%);
-  background-color: #fecdb4;
-  border-radius: 50%;
-  z-index: 10px;
-  transition-delay: 0;
-}
-
-.sideAni figure:nth-of-type(2) {
-  transition: 0.5s;
-}
-
-.sideAni figure:nth-of-type(3) {
-  transition: 0.5s;
-}
-
-.sideAni figure:nth-of-type(4) {
-  transition: 0.5s;
-}
-
-.sideBtn:hover figure:nth-of-type(1) {
-  top: 5px;
-  left: -10px;
-  width: 10px;
-  height: 10px;
-  transition: 0.5s ease-out;
-}
-
-.sideBtn:hover figure:nth-of-type(2) {
-  top: 10px;
-  left: 100px;
-  width: 20px;
-  height: 20px;
-  transition: 0.5s ease-out;
-}
-
-.sideBtn:hover figure:nth-of-type(3) {
-  top: 60px;
-  left: 150px;
-  width: 30px;
-  height: 30px;
-  transition: 0.5s ease-out;
-}
-
-.sideBtn:hover figure:nth-of-type(4) {
-  top: -10px;
-  left: -100px;
-  width: 15px;
-  height: 15px;
-  transition: 0.5s ease-out;
-} */
-
-
 @media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
@@ -902,21 +787,13 @@ a:hover {
 
 .soph-color {
   color: #93D2DF;
+  fill: #93D2DF;
 }
 
 .pixie-color {
   color: #5fbbf9;
   fill: #5fbbf9;
 }
-
-.color2 {
-  color: #fecdb4;
-}
-
-.font2 {
-  font-family: 'Dancing Script';
-}
-
 
 
 .uiux-head {
