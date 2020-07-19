@@ -67,10 +67,12 @@ body {
 
 .color1 {
   color: #bf888c;
+  fill: #bf888c;
 }
 
 .color2 {
   color: #fecdb4;
+  fill: #fecdb4;
 }
 
 .font2 {
@@ -750,7 +752,7 @@ a:hover {
 }
 
 .motto-line1 {
-  font-size: 1.8em;
+  font-size: 2.5em;
   color: white;
 }
 
@@ -766,11 +768,19 @@ a:hover {
 }
 
 .tool-head {
-  font-family: 'Dancing Script';
-  font-size: 30px;
   color: #fecdb4;
-  border-bottom: 5px solid #fecdb4;
-  padding-bottom: 8px;
+  font-family: 'Dancing Script';
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.tool-span {
+  display: block;
+  height: 0.5em;
+  width: 14em;
+  background: #fecdb4;
+  margin-bottom: 1em;
+  margin-top: 3em;
 }
 /* about - tool start */
 /* Work End */
