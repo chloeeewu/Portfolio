@@ -30,7 +30,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 */
 
 
-/* Layout */
+/* Overall */
 * {
   box-sizing: border-box;
 }
@@ -90,7 +90,41 @@ body {
   padding: 0.2em;
 }
 
-/* Layout End */
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-1_2_1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-2_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.text-left {
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+/* Overall End */
 
 
 /* a & hover Start*/
@@ -919,35 +953,6 @@ a:hover {
 .step3 {
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-
-.grid-4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.grid-3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.grid-1_2_1 {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-  padding-left: 0.5em;
 }
 
 
